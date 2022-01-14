@@ -1,0 +1,13 @@
+Idea:
+- web application that will allow users to create, save, and tag notes. Allow users to search by tags.
+
+MVP:
+- Users can create and log into their own accounts.
+- Users can create notes using a basic in-browser text editor.
+- Notes will be saved to the database.
+- Users can delete notes.
+- Users can update notes.
+- All note creations/updates will be logged in an event table, to be used by dev and future features.
+- Users can provide custom tags for their notes.
+- Notes will automatically be given meta tags (username, timestamp of note, last edited timestamp).
+- Users can search by tags. Search will return all notes containing the selected tags.
